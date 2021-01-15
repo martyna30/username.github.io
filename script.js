@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    const apiRoot = 'http://localhost:8080/v1/library';
+    const apiRoot = 'https://tranquil-basin-40479.herokuapp.com/v1/library';
     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
     const $booksContainer = $('[data-books-container]');
 
